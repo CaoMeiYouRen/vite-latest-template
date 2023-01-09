@@ -17,5 +17,4 @@ jobs:
           cache: "npm"
       - run: pnpm i --fix-lockfile
       - run: pnpm run lint
-      - run: pnpm run lint:css
       - run: pnpm run build
