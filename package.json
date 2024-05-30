@@ -21,7 +21,7 @@
     "@vue/eslint-config-typescript": "^13.0.0",
     "cross-env": "^7.0.3",
     "eslint": "^8.57.0",
-    "eslint-config-cmyr": "^1.1.30",
+    "eslint-config-cmyr": "^1.1.31",
     "eslint-plugin-vue": "^9.26.0",
     "sass": "^1.77.3",
     "typescript": "^5.4.5",
