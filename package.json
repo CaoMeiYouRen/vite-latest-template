@@ -10,7 +10,7 @@
     "lint": "cross-env NODE_ENV=production eslint src --fix --ext .js,.ts,.vue"
   },
   "dependencies": {
-    "pinia": "^2.2.4",
+    "pinia": "^2.2.5",
     "vue": "^3.5.12",
     "vue-router": "^4.4.5"
   },
