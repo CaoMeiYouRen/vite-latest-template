@@ -23,7 +23,7 @@
     "cross-env": "^7.0.3",
     "eslint": "^8.57.1",
     "eslint-config-cmyr": "^1.1.32",
-    "eslint-plugin-vue": "^9.31.0",
+    "eslint-plugin-vue": "^9.33.0",
     "sass": "^1.85.1",
     "typescript": "^5.8.2",
     "vite": "^6.2.0",
