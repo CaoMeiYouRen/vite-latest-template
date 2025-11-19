@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@types/node": "^24.10.1",
-    "@vitejs/plugin-vue": "^6.0.0",
+    "@vitejs/plugin-vue": "^6.0.2",
     "cross-env": "^10.1.0",
     "eslint": "^9.39.1",
     "eslint-config-cmyr": "^2.0.1",
