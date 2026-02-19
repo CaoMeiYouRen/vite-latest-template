@@ -24,11 +24,11 @@ importers:
         version: 5.0.2(@vue/compiler-sfc@3.5.28)(pinia@3.0.4(typescript@5.9.3)(vue@3.5.28(typescript@5.9.3)))(vue@3.5.28(typescript@5.9.3))
     devDependencies:
       '@types/node':
-        specifier: ^25.2.3
-        version: 25.2.3
+        specifier: ^25.3.0
+        version: 25.3.0
       '@vitejs/plugin-vue':
         specifier: ^6.0.4
-        version: 6.0.4(vite@7.3.1(@types/node@25.2.3)(sass@1.97.3)(yaml@2.8.2))(vue@3.5.28(typescript@5.9.3))
+        version: 6.0.4(vite@7.3.1(@types/node@25.3.0)(sass@1.97.3)(yaml@2.8.2))(vue@3.5.28(typescript@5.9.3))
       cross-env:
         specifier: ^10.1.0
         version: 10.1.0
@@ -49,10 +49,10 @@ importers:
         version: 5.9.3
       vite:
         specifier: ^7.3.1
-        version: 7.3.1(@types/node@25.2.3)(sass@1.97.3)(yaml@2.8.2)
+        version: 7.3.1(@types/node@25.3.0)(sass@1.97.3)(yaml@2.8.2)
       vite-tsconfig-paths:
         specifier: ^6.1.1
-        version: 6.1.1(typescript@5.9.3)(vite@7.3.1(@types/node@25.2.3)(sass@1.97.3)(yaml@2.8.2))
+        version: 6.1.1(typescript@5.9.3)(vite@7.3.1(@types/node@25.3.0)(sass@1.97.3)(yaml@2.8.2))
       vue-tsc:
         specifier: ^3.2.4
         version: 3.2.4(typescript@5.9.3)
@@ -543,8 +543,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@25.2.3':
-    resolution: {integrity: sha512-m0jEgYlYz+mDJZ2+F4v8D1AyQb+QzsNqRuI7xg1VQX/KlKS0qT9r1Mo16yo5F/MtifXFgaofIFsdFMox2SxIbQ==}
+  '@types/node@25.3.0':
+    resolution: {integrity: sha512-4K3bqJpXpqfg2XKGK9bpDTc6xO/xoUP/RBWS7AtRMug6zZFaRekiLzjVtAoZMquxoAbzBvy5nxQ7veS5eYzf8A==}
 
   '@typescript-eslint/eslint-plugin@8.55.0':
     resolution: {integrity: sha512-1y/MVSz0NglV1ijHC8OT49mPJ4qhPYjiK08YUQVbIOyu+5k862LKUHFkpKHWu//zmr7hDR2rhwUm6gnCGNmGBQ==}
@@ -687,6 +687,11 @@ packages:
 
   acorn@8.15.0:
     resolution: {integrity: sha512-NZyJarBfL7nWwIq+FDL6Zp/yHEhePMNnnJ0y3qfieCrmNvYct8uvtiV41UvlSe6apAfk0fY1FbWx+NwfmpvtTg==}
+    engines: {node: '>=0.4.0'}
+    hasBin: true
+
+  acorn@8.16.0:
+    resolution: {integrity: sha512-UVJyE9MttOsBQIDKw1skb9nAwQuR5wuGD3+82K6JgJlm/Y+KI92oNsMNGZCYdDsVtRHSak0pcV5Dno5+4jh9sw==}
     engines: {node: '>=0.4.0'}
     hasBin: true
 
@@ -1702,8 +1707,8 @@ packages:
     resolution: {integrity: sha512-nWJ91DjeOkej/TA8pXQ3myruKpKEYgqvpw9lz4OPHj/NWFNluYrjbz9j01CJ8yKQd2g4jFoOkINCTW2I5LEEyw==}
     engines: {node: '>= 0.4'}
 
-  undici-types@7.16.0:
-    resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
+  undici-types@7.18.2:
+    resolution: {integrity: sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w==}
 
   unplugin-utils@0.3.1:
     resolution: {integrity: sha512-5lWVjgi6vuHhJ526bI4nlCOmkCIF3nnfXkCMDeMJrtdvxTs6ZFCM8oNufGTsDbKv/tJ/xj8RpvXjRuPBZJuJog==}
@@ -2183,9 +2188,9 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@25.2.3':
+  '@types/node@25.3.0':
     dependencies:
-      undici-types: 7.16.0
+      undici-types: 7.18.2
 
   '@typescript-eslint/eslint-plugin@8.55.0(@typescript-eslint/parser@8.55.0(eslint@9.39.2)(typescript@5.9.3))(eslint@9.39.2)(typescript@5.9.3)':
     dependencies:
@@ -2278,10 +2283,10 @@ snapshots:
       '@typescript-eslint/types': 8.55.0
       eslint-visitor-keys: 4.2.1
 
-  '@vitejs/plugin-vue@6.0.4(vite@7.3.1(@types/node@25.2.3)(sass@1.97.3)(yaml@2.8.2))(vue@3.5.28(typescript@5.9.3))':
+  '@vitejs/plugin-vue@6.0.4(vite@7.3.1(@types/node@25.3.0)(sass@1.97.3)(yaml@2.8.2))(vue@3.5.28(typescript@5.9.3))':
     dependencies:
       '@rolldown/pluginutils': 1.0.0-rc.2
-      vite: 7.3.1(@types/node@25.2.3)(sass@1.97.3)(yaml@2.8.2)
+      vite: 7.3.1(@types/node@25.3.0)(sass@1.97.3)(yaml@2.8.2)
       vue: 3.5.28(typescript@5.9.3)
 
   '@volar/language-core@2.4.27':
@@ -2410,7 +2415,13 @@ snapshots:
     dependencies:
       acorn: 8.15.0
 
+  acorn-jsx@5.3.2(acorn@8.16.0):
+    dependencies:
+      acorn: 8.16.0
+
   acorn@8.15.0: {}
+
+  acorn@8.16.0: {}
 
   ajv@6.12.6:
     dependencies:
@@ -2873,8 +2884,8 @@ snapshots:
 
   espree@9.6.1:
     dependencies:
-      acorn: 8.15.0
-      acorn-jsx: 5.3.2(acorn@8.15.0)
+      acorn: 8.16.0
+      acorn-jsx: 5.3.2(acorn@8.16.0)
       eslint-visitor-keys: 3.4.3
 
   esquery@1.6.0:
@@ -3625,7 +3636,7 @@ snapshots:
       has-symbols: 1.1.0
       which-boxed-primitive: 1.1.1
 
-  undici-types@7.16.0: {}
+  undici-types@7.18.2: {}
 
   unplugin-utils@0.3.1:
     dependencies:
@@ -3644,17 +3655,17 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  vite-tsconfig-paths@6.1.1(typescript@5.9.3)(vite@7.3.1(@types/node@25.2.3)(sass@1.97.3)(yaml@2.8.2)):
+  vite-tsconfig-paths@6.1.1(typescript@5.9.3)(vite@7.3.1(@types/node@25.3.0)(sass@1.97.3)(yaml@2.8.2)):
     dependencies:
       debug: 4.4.3
       globrex: 0.1.2
       tsconfck: 3.1.6(typescript@5.9.3)
-      vite: 7.3.1(@types/node@25.2.3)(sass@1.97.3)(yaml@2.8.2)
+      vite: 7.3.1(@types/node@25.3.0)(sass@1.97.3)(yaml@2.8.2)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite@7.3.1(@types/node@25.2.3)(sass@1.97.3)(yaml@2.8.2):
+  vite@7.3.1(@types/node@25.3.0)(sass@1.97.3)(yaml@2.8.2):
     dependencies:
       esbuild: 0.25.12
       fdir: 6.5.0(picomatch@4.0.3)
@@ -3663,7 +3674,7 @@ snapshots:
       rollup: 4.55.1
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 25.2.3
+      '@types/node': 25.3.0
       fsevents: 2.3.3
       sass: 1.97.3
       yaml: 2.8.2
