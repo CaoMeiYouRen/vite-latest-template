@@ -5,9 +5,12 @@ overrides:
   esbuild: ^0.25.0
   brace-expansion: ^2.0.3
   js-yaml: ^4.1.1
+  flatted: ^3.4.2
+  minimatch: ^3.1.5
 
 allowBuilds:
   '@parcel/watcher': true
   esbuild: true
 
 strictPeerDependencies: false
+
